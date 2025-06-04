@@ -15,5 +15,12 @@
         "**/Thumbs.db": true,
         "**/*.crswap": true,
         "**/__pycache__": true
-    }
+    },
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "jupyter.askForKernelRestart": false
 }
